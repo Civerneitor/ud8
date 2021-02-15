@@ -9,11 +9,11 @@ package models;
  */
 public class Persona {
 
-	private static String DEF_NOMBRE = "";
-	private static int DEF_EDAD = 0;
-	private static char DEF_SEXO = 'H';
-	private static double DEF_PESO = 0;
-	private static double DEF_ALTURA = 0;
+	final private static String DEF_NOMBRE = "";
+	final private static int DEF_EDAD = 0;
+	final private static char DEF_SEXO = 'H';
+	final private static double DEF_PESO = 0;
+	final private static double DEF_ALTURA = 0;
 	
 	private String nombre;
 	private int edad;
