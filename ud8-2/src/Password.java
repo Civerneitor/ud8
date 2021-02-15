@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Password {
 	
-	private static int DEF_LONGITUD = 8;
+	final private static int DEF_LONGITUD = 8;
 	
 	private int longitud;
 	private String contra;
